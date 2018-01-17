@@ -1,0 +1,57 @@
+{
+       "items":[
+          {
+            "jobId":"C71CD1954BA149BCAF42B25F775EA4FA",
+            "positionName":"Yazılımcı",
+            "companyName":"Testoğlu Yazılım",
+            "durationDay":0,
+            "durationDayText":"Taze çıktı!",
+            "imageUrl":"http://localhost/bluecollar/Company/Job/000/000/000/avatar/13920170713010155805.jpg",
+            "distance":"58,53 km yakınında",
+            "latitude":41.050968170166023,
+            "longitude":29.062856674194339,
+            "cityName":"Bursa",
+            "townName":"Çengelköy Mahallesi"
+         },
+         {
+            "jobId":"C71CD1954BA149BCAF42B25F775EA4FB",
+            "positionName":"Gerber Operatörü",
+            "companyName":"Testoğlu Lahmacun Pide Ve Kebap",
+            "durationDay":0,
+            "durationDayText":"Taze çıktı!",
+            "imageUrl":"http://localhost/bluecollar/Company/Job/000/000/000/avatar/13920170713010155805.jpg",
+            "distance":"8,53 km yakınında",
+            "latitude":41.050968170166023,
+            "longitude":29.062856674194339,
+            "cityName":"Bursa",
+            "townName":"Çengelköy Mahallesi"
+         },
+         {
+            "jobId":"C71CD1954BA149BCAF42B25F775EA4FC",
+            "positionName":"Gerber Operatörü",
+            "companyName":"Denemeoğlu Lahmacun Pide Ve Kebap",
+            "durationDay":0,
+            "durationDayText":"Taze çıktı!",
+            "imageUrl":"http://localhost/bluecollar/Company/Job/000/000/000/avatar/13920170713010155805.jpg",
+            "distance":"8,53 km yakınında",
+            "latitude":41.050968170166023,
+            "longitude":29.062856674194339,
+            "cityName":"Bursa",
+            "townName":"Mecidiyeköy"
+         },
+         {
+            "jobId":"C71CD1954BA149BCAF42B25F775EA4FD",
+            "positionName":"Aşçı",
+            "companyName":"Burger King",
+            "durationDay":0,
+            "durationDayText":"Taze çıktı!",
+            "imageUrl":"http://localhost/bluecollar/Company/Job/000/000/000/avatar/13920170713010155805.jpg",
+            "distance":"58,53 km yakınında",
+            "latitude":41.050968170166023,
+            "longitude":29.062856674194339,
+            "cityName":"Bursa",
+            "townName":"Çengelköy Mahallesi"
+         }
+       ]
+ }
+ 
