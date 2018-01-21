@@ -25,19 +25,22 @@ export default {
   },
   methods: {
     handleSearch(query) {
-      this.jobs = [];
+      this.jobs = [];	
+	  console.log(this.jobs.length);
+      this.isLoading = false; 
+      this.starting = false;
       for(var i = 0; i < this.jobsArray.length; i++) {          
         if(((this.jobsArray[i].cityName == query.selectedCity) && (this.jobsArray[i].positionName == query.keyword)) || 
            ((this.jobsArray[i].cityName == query.selectedCity) && (query.keyword == ""))||
            ((query.selectedCity == "") && (query.keyword == this.jobsArray[i].positionName))) {
           this.jobs.push(this.jobsArray[i]);
-          this.isFinding = false;        
-        } else {
-          this.isFinding = true;
         }
-      }        
-      this.isLoading = false; 
-      this.starting = false;
+      } 
+	  if(this.jobs.length > 0) {
+		this.isFinding = false;
+	  } else {
+		this.isFinding = true;
+	  }
     }
   },
   created() {
